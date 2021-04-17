@@ -12,7 +12,7 @@ jobs:
       - name: Run script
         uses: matlab-actions/run-command@v0
         with:
-          command: myscript
+          command: myfunc(2)
 
   job2:
     name: Run MATLAB Script
@@ -25,4 +25,4 @@ jobs:
       - name: Run script
         uses: matlab-actions/run-command@v0
         with:
-          command: myscript  
+          command: myfunc(3)  

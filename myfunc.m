@@ -1,5 +1,5 @@
 function y = myfunc(x)
 y=x*x;
-disp("y")
+disp(y)
 end
 
